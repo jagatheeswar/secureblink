@@ -1,0 +1,136 @@
+
+nav{
+    background-color: green;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+        
+    
+    line-height: 90px;
+    width: 130px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 5%;
+}
+span#heading{
+    line-height: 90px;
+    margin-left: 30px;
+}
+.navright{
+    align-items: center;
+    flex:1;
+}
+img{
+    margin-left: 10%;
+}
+.navleft{
+    
+    align-items: center;
+    flex: 3;
+    display: flex;
+    justify-content:start;
+    background-color: green;
+}
+img#logo{
+margin-left: 40px ;
+}
+
+/*end of homepage .js component */
+
+/* start of poster .js component */
+
+.poster{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    .poster {
+      height: 680px;
+    }
+  }
+.postercontent{
+    min-width: 300px;
+    flex-wrap: wrap;
+    background-color: red;
+
+    font-size: xx-large;
+    line-height: 50px;
+    flex: 1;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.postercontent p{
+    font-size: large;
+    line-height: 30px;
+    margin-right: 2%;
+}
+.posterimage{
+    min-width: 300px;
+background-color:red;
+flex: 1;
+
+}
+.posterimage {
+    display: flex;
+    flex-shrink: 0;
+overflow: hidden;
+margin: 0px 0px 0px 0px !important;
+}
+.posterimage img {
+    margin: 0px 0px 0px 0px !important;
+    min-height: 100%
+    
+}
+/* end of poster */
+
+/* start of number */
+.numbercontainer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.number1{
+    text-align: end;
+    align-items: center;
+flex: 1;
+background-color: rgb(221, 213, 214);
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+.number2{
+    text-align: end;
+    align-items: center;
+    background-color: rgb(221, 213, 214);
+    flex: 1;
+    justify-content: center;
+    display: flex;
+flex-direction: column;
+}
+.number3{
+    text-align: end;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(221, 213, 214);
+    justify-content: center;
+    display: flex;
+flex-direction: column;
+}
+.numbercontainer h1{
+color: red;
+border-bottom: 4px solid black;
+}
