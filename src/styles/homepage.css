@@ -216,6 +216,13 @@ h5{
 /*end of numbers */
 
 /*start of couses */
+.courseheadinghfour{
+color: #01CB63;
+}
+.courseheadinghtwo{
+    color: black;
+    font-weight: bolder;
+}
 .coursescontainer
 {
     padding-top: 5%;
