@@ -56,8 +56,9 @@ function Contact(){
                 <input type="email" required name="email" placeholder="Email" />
                 <input type="number" required maxLength="10" name="name" placeholder="Phone" />
                 <input type="text" required maxLength="50" name="subject" placeholder="Subject" />
-                <br></br>
+                
                 <textarea cols="50" rows="10" placeholder="     Message"></textarea>
+                <input type="submit" value="Submit" id="submitbtn" />
                 </form>
             </div>
             

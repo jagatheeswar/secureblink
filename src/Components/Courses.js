@@ -5,6 +5,8 @@ import schedule from "../images/schedule.svg"
 import business from "../images/business.jpg"
 import photoshop from "../images/photoshop.jpg"
 import marketing from "../images/marketing.jpg"
+import luis from "../images/luis.png"
+import jonas from "../images/jonas.png"
 
 function Courses(){
     return(
@@ -33,7 +35,7 @@ function Courses(){
                 <br></br>
                 <hr></hr>
                 <div className="cardfooter">
-                <span id="time"><img src={courseimg1} width="50px" height="50px" id="profilepic"/></span> <span id="profilename">&nbsp; <b>  Albert Hitler</b></span><span id="lectures" className="fees">₹2000 <i id="striken">₹4000</i></span>
+                <span id="time"><img src={luis} width="50px" height="50px" id="profilepic"/></span> <span id="profilename">&nbsp; <b>  Albert Hitler</b></span><span id="lectures" className="fees">₹2000 <i id="striken">₹4000</i></span>
                 </div>
                </div>
                
@@ -67,7 +69,7 @@ function Courses(){
                 <br></br>
                 <hr></hr>
                 <div className="cardfooter">
-                <span id="time"><img src={courseimg1} width="50px" height="50px" id="profilepic"/></span> <span id="profilename"> <b> Albert Hitler</b></span><span id="lectures" className="fees">₹2000 <i id="striken">₹4000</i></span>
+                <span id="time"><img src={luis} width="50px" height="50px" id="profilepic"/></span> <span id="profilename"> <b> Albert Hitler</b></span><span id="lectures" className="fees">₹2000 <i id="striken">₹4000</i></span>
                 </div>
                </div>
 
