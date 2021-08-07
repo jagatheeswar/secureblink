@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-//import '../css/Navbar.css';
-import logoPath from "../images/Group 3.svg"
+import '../styles/Navbar.css';
+import logoPath from '../images/Group 3.svg';
 
 const Navbar= (props) => {
     const isWindowLarge= () => {

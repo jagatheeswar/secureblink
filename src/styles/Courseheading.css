@@ -1,0 +1,27 @@
+#contactheadingdiv{
+    height: 100px;
+    font-size: bold;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#contactheadingp{
+    color: #01cb63;
+}
+#contactheadingh{
+
+}
+@media (max-width:535px) and (min-width:500px) {
+    #contactheadingdiv{
+        margin-top: 25%;
+    }
+  }
+  @media (max-width:320px) and (min-width:200px) {
+    #contactheadingdiv{
+        margin-top: 25%;
+        margin-bottom: 20%;
+    }
+  }

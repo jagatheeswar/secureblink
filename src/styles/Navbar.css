@@ -1,0 +1,104 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 60% 40%;    
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.logo{
+    height: 55px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleBtn{
+    display: none;
+}
+
+.loginBtn, .registerBtn{
+    width: 100px;
+    height: 30px;
+    margin: 0px 8px;
+    padding: 3px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.registerBtn{
+    background-color:#01CB63;
+}
+
+@media(max-width : 700px){
+    .navbar{
+        grid-template-columns: auto;
+    }
+
+    .title{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        width: 70%;
+    }
+
+    .btns{
+        width: 100%;
+        grid-template-columns: auto;
+        background-color: #01CB63;
+        height: 130px;
+        outline: none;
+        box-sizing: border-box;
+        border: none;
+        cursor: pointer;
+        
+    }
+    
+    .loginBtn, .registerBtn{
+        border: none;
+        background: none;
+        color: white;
+        margin: 5px;
+        outline: none;
+        box-sizing: border-box;
+        border: none;
+        cursor: pointer;
+    }
+
+    .toggleBtn{
+        cursor: pointer;
+        display: block;
+        width: 35px;
+        height: 25px;
+        margin-right: 30px; 
+        outline: none;
+        box-sizing: border-box;
+        border: none;
+    }
+
+    .hideEle{
+        display: none;
+    }
+}
+
+.registerBtn:hover{
+    background-color: #05b85b;
+    transform: scale(1.04);
+    cursor: pointer;
+}

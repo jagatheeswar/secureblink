@@ -1,0 +1,89 @@
+
+.poster{
+    background-color: rgb(255, 255, 255);
+    
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-height: 800px;
+    display: flex;
+    padding: 0%;
+    margin-right: -10%;
+    flex-wrap: wrap;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    .poster {
+      height: 800px;
+    }
+  }
+.postercontent{
+    position: static;
+    min-width: 320px;
+    flex-wrap: wrap;
+    background-color: #01CB63;
+    width: 100%;
+    font-size: xx-large;
+    line-height: 30px;
+    flex: 3;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+        
+}
+.postercontent h3{
+    padding-top: 5%;
+    margin-left: 5%;
+    text-align: start; 
+}
+@media only screen and (max-width: 600px) {
+    .postercontent h3.firsthead {
+    margin-top: 3%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .postercontent h3.firsthead {
+    margin-top: 7%;
+    }
+  }
+.paraasheading{
+    color: #1F2532;
+    font-size: large;
+    line-height: 30px;
+    text-align: start;
+}
+.posterimage{
+    min-width: 320px;
+background-color:rgb(255, 255, 255);
+flex: 2;
+
+
+}
+.posterimage {
+    display: flex;
+    flex-shrink: 0;
+overflow: hidden;
+margin: 0px 0px 0px 0px !important;
+}
+.posterimage img {
+    margin: 0px 0px 0px 0px !important;
+    min-height: 100%
+    
+}
+.startbutton{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    margin: 5%;
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+}
+.startbutton:hover{
+    background-color: rgb(22, 21, 21);
+    transform: scale(1.04);
+    cursor: pointer;
+}

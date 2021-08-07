@@ -1,0 +1,171 @@
+.courseheadinghfour{
+    color: #01CB63;
+    }
+    .courseheadinghtwo{
+        color: black;
+        font-weight: bolder;
+    }
+    .coursescontainer
+    {
+        padding-top: 5%;
+        line-height: 30px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        
+    }
+    .courses{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        justify-content: space-around;
+    }
+    
+    .course1 img{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        margin: 0px 0px 0px 0px !important;
+        
+    }
+    .course2 img{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        margin: 0px 0px 0px 0px !important;
+    }
+    .course3 img{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        margin: 0px 0px 0px 0px !important;
+    }
+    .course1,.course2,.course3{
+       
+        background-color: rgb(255, 255, 255);
+        color: black;  
+        border-radius: 15px; 
+        flex-basis: 20%;
+        margin: 3%;
+    }
+    #courseheading{
+        text-align: start;
+        width: 350px;
+    }
+    #coursecard span{
+    font-style: italic;
+    margin-left: 2%;
+    
+    }
+    #lectures{
+        float: right;
+        margin-right: 5%;
+        font-weight: 600;
+        color: #86919D;
+    }
+    #striken{
+        margin-top: 2%;
+        text-decoration: line-through;
+    }
+    i.totalstudents{
+        float: left;
+    }
+    #time{
+        float: left;
+        margin-left: 2%;
+        color: #86919D;
+        font-weight: 600;
+    }
+    @media (max-width:600px) {
+        #time,#profilename,#lectures {
+            font-size: small;
+        
+        }
+      }
+    .fees{
+        color: #01cb63 !important;
+        font-weight: bold;
+    }
+    #striken{
+        color: black; 
+        font-size: small;
+    }
+    #profilepic{
+        
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+    #profilename{
+        float: left;
+        margin-top:2%;
+    }
+    .cardfooter{
+        margin-top: 2%;
+    }
+    @media (max-width:1200px) and (min-width:700px) {
+        .courses {
+            padding-left: 20%;
+            padding-right: 20%;
+          justify-content: space-around;
+        }
+        .course3,.course1,.course2{
+            border-bottom: 5px solid black;
+            margin-top: 15%;
+        }
+      }
+    
+      @media (max-width:700px) and (min-width:350px) {
+        .courses {
+    
+          justify-content: space-around;
+        }
+        .course3,.course1,.course2{
+            margin-left: 5%;
+            border-bottom: 5px solid black;
+            margin-top: 15%;
+        }
+      }
+    
+      @media (max-width:415px) and (min-width:0px) {
+        .courses {
+    
+          justify-content: space-around;
+        }
+        .course3,.course1,.course2{
+            width: 3300px;
+            font-size: large;
+            margin-left: 5%;
+            border-bottom: 5px solid black;
+            margin-top: 15%;
+        }
+        h2#courseheading{
+            width: 200px;
+            
+            font-size: small;
+        }
+        #striken,#profilename,#lectures{
+            font-size: small;
+        }
+      }
+    #floabutton{
+        position: relative;
+        top: -60px;
+        left: 110px;
+        outline: none;
+        box-sizing: border-box;
+        background-color: #10182F;
+        color: #01cb63;
+        height: 30px;
+        border-radius: 10px;
+        width: 100px;
+    }
+    @media (max-width:415px) {
+        #floabutton {
+            position: relative;
+            left: 50px;
+            
+        }
+            
+        }
+      
+    
